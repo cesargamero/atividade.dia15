@@ -1,5 +1,17 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+abstrat class Animal {
+    private String nome
+    
+    public Animal(String nome) {
+    this.nome = nome:
+    }
+    
+    public String getNome() {
+    return.nome;
+    }
+    
+    public abstract void fazerSom();
+    
+    public void dormir() {
+    System.out.println(nome + "esta dormindo.");
     }
 }
